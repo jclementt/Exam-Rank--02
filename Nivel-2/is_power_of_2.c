@@ -7,11 +7,9 @@ int	    is_power_of_2(unsigned int n)
     while (n != 1)
 	{
         if (n % 2 != 0)
-            printf("no");
             return(0);
         n = n / 2;
     }
-    printf("yes");
     return(1);
 }
 
